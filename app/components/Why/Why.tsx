@@ -2,7 +2,7 @@ import React from 'react'
 
 const Why = () => {
   return (
-    <div className="w-full bg-[#c49a6c] grid grid-cols-1 md:grid-cols-2 justify-center items-center px-8 py-20 md:px-20 gap-10">
+    <div id='why' className="w-full bg-[#c49a6c] grid grid-cols-1 md:grid-cols-2 justify-center items-center px-8 py-20 md:px-20 gap-10">
       
       
       <div className="bg-white rounded-2xl shadow-xl p-10 md:p-16 flex flex-col justify-center items-center transform transition duration-300 hover:scale-105">

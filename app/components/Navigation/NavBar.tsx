@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import {Links} from '../../constants/Constants'
-import Link from "next/link";
+import { Link } from 'react-scroll'
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 
@@ -29,8 +29,8 @@ const NavBar = () => {
             <Image
                 src='/logo.png'
                 alt='NORDREC Logo'
-                  width={180}
-                  height={180}
+                  width={100}
+                  height={100}
                   className='mix-blend-multiply'
             />
           <h1 className='text-2xl text-white font-bold p-4'>NORDREC</h1>
@@ -46,7 +46,14 @@ const NavBar = () => {
         {Links.map((link)=>(
             <Link
             key={link.id}
-            href={link.url}
+            to={link.url}
+            smooth={true}        
+            duration={800}       
+            offset={-70}          
+            spy={true}
+            activeClass="active-link" 
+            className="cursor-pointer hover:text-green-700 transition duration-300" 
+            
             >
                 {link.label}
             </Link>

@@ -1,37 +1,37 @@
 export const Links = [
   {
     id: 1,
-    url: "#hero",
+    url: "hero",
     label: "Home",
   },
   {
     id: 2,
-    url: "#mission-vision",
+    url: "mission-vision",
     label: "Mission & Vision",
   },
   {
     id: 3,
-    url: "#why",
+    url: "why",
     label: "Why Establish",
   },
   {
     id: 4,
-    url: "#objectives",
+    url: "objectives",
     label: "Objectives",
   },
   {
     id: 5,
-    url: "#goals",
+    url: "goals",
     label: "Strategic Goals",
   },
   {
     id: 6,
-    url: "#areas",
+    url: "areas",
     label: "Thematic Areas",
   },
   {
     id: 7,
-    url: "#implementation",
+    url: "implementation",
     label: "Strategic Implementation",
   },
 ]

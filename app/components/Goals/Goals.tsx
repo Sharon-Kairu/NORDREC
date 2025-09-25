@@ -2,7 +2,7 @@ import React from 'react'
 
 const Goals = () => {
   return (
-    <div className='w-full bg-[#c49a6c] grid grid-cols-1 md:grid-cols-2'>
+    <div id='goals' className='w-full bg-[#c49a6c] grid grid-cols-1 md:grid-cols-2'>
 
         <div className='bg-white m-10 p-10 rounded-2xl flex justify-center items-center'>
             <h1 className='text-4xl md:text-5xl font-extrabold text-[#c49a6c]  p-10 md:p-16'>
