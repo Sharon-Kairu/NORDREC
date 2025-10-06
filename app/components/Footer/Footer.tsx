@@ -1,6 +1,7 @@
+'use client'
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
+import { Link } from 'react-scroll'
 import { Links } from '../../constants/Constants'
 import { FiMail, FiPhone } from 'react-icons/fi'
 
@@ -14,10 +15,10 @@ const Footer = () => {
         
         <div className="flex flex-col items-center justify-center mt-6 p-6">
             <Image
-              src='/logo.png'
+              src='/logo-removebg-preview.png'
               alt='NORDREC Logo'
-                width={280}
-                height={280}
+                width={200}
+                height={200}
                 className='mix-blend-multiply'
             />
           <h1 className="text-xl font-semibold">
@@ -30,8 +31,12 @@ const Footer = () => {
           {Links.map((link) => (
             <Link
               key={link.id}
-              href={link.url}
-              className="hover:text-yellow-100 transition duration-300"
+              to={link.url}
+              smooth={true}        
+              duration={800}       
+              offset={-70}          
+              spy={true}
+              className="hover:text-[#f5deb3] transition-colors duration-300"
             >
               {link.label}
             </Link>
@@ -51,7 +56,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="text-center text-gray-500 text-sm mt-10 border-t border-gray-200 pt-4">
+      <div className="text-center font-bold text-gray-700 text-sm mt-10 border-t border-gray-200 pt-4">
         © {new Date().getFullYear()} NORTHERN DRYLAND RESOURCE CENTER (NORDREC). All rights reserved.
       </div>
     </footer>

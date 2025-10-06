@@ -12,8 +12,8 @@ const Why = () => {
       </div>
 
       
-      <div className="flex flex-col gap-6 text-lg text-green-700 font-semibold leading-relaxed">
-        <p className="hover:text-yellow-100 transition duration-300">
+      <div className="flex flex-col gap-6 text-black text-xl font-semibold leading-relaxed">
+        <p className=" hover:text-yellow-100 transition duration-300">
           🌱 Strengthen food supply systems to mitigate drought impacts
         </p>
         <p className="hover:text-yellow-100 transition duration-300">
