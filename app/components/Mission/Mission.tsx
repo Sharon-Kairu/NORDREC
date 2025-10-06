@@ -37,7 +37,8 @@ const Mission = () => {
   return (
     <div id='mission-vision' className=' items-center justify-items-center px-10 py-20 bg-cover bg-center space-y-5'>
 
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-8 p-5 bg-[#f3e9e4] rounded-2xl shadow-lg '> 
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-8 bg-[#f3e9e4] rounded-2xl shadow-lg '> 
+
             <div  className='m-8 flex flex-col gap-8 items-center justify-items-center px-10 py-20 mb-16'>
 
                 <div className='bg-brown-200 w-full flex flex-col items-center justify-center p-4'>
@@ -90,7 +91,7 @@ const Mission = () => {
 
             <div id='mission' className='m-8 flex flex-col gap-8 items-center justify-items-center px-10 py-20'>
 
-                <div className='w-full flex flex-col items-center justify-center p-4'>
+                <div className='w-full flex flex-col items-center justify-center'>
                     <h1 className='text-xl md:text-3xl font-bold leading-tight text-green-700'>
                         Our Vision
                     </h1>

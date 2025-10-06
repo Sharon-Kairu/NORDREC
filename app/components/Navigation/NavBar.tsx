@@ -36,7 +36,7 @@ const NavBar = ({openNav}: Props) => {
                   alt='NORDREC Logo'
                     width={100}
                     height={100}
-                    className='mix-blend-multiply'
+                    className='mix-blend-multiply w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32'
               />
             <h1 className='text-2xl text-white font-bold p-4'>NORDREC</h1>
           </div>
