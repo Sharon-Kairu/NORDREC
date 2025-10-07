@@ -17,8 +17,8 @@ const Footer = () => {
             <Image
               src='/logo-removebg-preview.png'
               alt='NORDREC Logo'
-                width={200}
-                height={200}
+                width={100}
+                height={100}
                 className='mix-blend-multiply'
             />
           <h1 className="text-xl font-semibold">
@@ -52,6 +52,10 @@ const Footer = () => {
           <div className="flex items-center gap-2">
             <FiPhone size={20} />
             <span>+2547 2150 5214 </span>
+          </div>
+          <div className="flex items-center gap-2">
+            <FiPhone size={20} />
+            <span>+254 713 213237 </span>
           </div>
         </div>
       </div>
