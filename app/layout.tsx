@@ -19,29 +19,13 @@ export const metadata: Metadata = {
   title: "NORDREC",
   description: "Advancing sustainable dryland regeneration across Northern Kenya through training, research, and innovation.",
   openGraph: {
-    title: 'NORDREC - Northern Dryland Resource Centre',
-    description:
-      'Empowering dryland communities with sustainable farming and regeneration practices.',
-    url: 'https://nordrec.org/',
-    siteName: 'NORDREC',
-    images: [
-      {
-        url: 'https://nordrec.org/logo-removebg-preview.png', 
-        width: 1200,
-        height: 630,
-        alt: 'NORDREC Logo',
-      },
-    ],
-    locale: 'en_US',
-    type: 'website',
+    images: '/logo-removebg-preview.png', 
   },
   twitter: {
-    card: 'summary_large_image',
-    title: 'NORDREC - Northern Dryland Resource Centre',
-    description:
-      'Empowering dryland communities with sustainable farming and regeneration practices.',
-    images: ['https://nordrec.org/logo-removebg-preview.png'],
-  },
+    card: 'summary_large_image', // Use 'summary_large_image' for a prominent display
+    images: '/logo-removebg-preview.png',
+  }
+  
 };
 
 export default function RootLayout({
