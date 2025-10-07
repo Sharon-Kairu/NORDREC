@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://nordrec.org'),
   title: "NORDREC",
   description: "Advancing sustainable dryland regeneration across Northern Kenya through training, research, and innovation.",
   openGraph: {
