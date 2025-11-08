@@ -28,7 +28,6 @@ const Mission = () => {
   const images2 = [
     "/image8.jpeg",
     "/image9.jpeg",
-    "/image10.jpeg",
     "/image11.jpeg",
     "/image12.jpeg",
     "/image13.jpeg",
