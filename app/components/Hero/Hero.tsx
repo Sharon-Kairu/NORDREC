@@ -10,7 +10,7 @@ const Hero = () => {
       }}
     >
       {/* Left Side: Title & Description */}
-      <div className="flex flex-col justify-center space-y-6 text-center md:text-left max-w-2xl">
+      <div className="flex flex-col space-y-6  ">
         <h1 className="text-3xl md:text-6xl font-bold leading-tight text-green-700">
           Northern Dryland
         </h1>
@@ -18,26 +18,26 @@ const Hero = () => {
           Resource Centre
         </h1>
 
-        <p className="mt-2 text-md md:text-lg leading-relaxed text-white">
-          The Northern Dryland Resource Centre (NORDREC), located in Bute Sub-county, Wajir County, Kenya,
-          was established in 2020 and officially registered in 2025. Its mission is to advance sustainable dryland
-          regeneration, combining training, research, and innovative practices to restore ecosystems and support
-          local livelihoods.
+        <p className="mt-2 text-md md:text-xl leading-relaxed text-white">
+          The Northern Dryland Resource Centre (NORDREC), headquartered in Wajir with a satellite office in Nairobi and 
+          demonstration farms in Bute and Habaswein sub-counties of Wajir County, Kenya, was founded in 2020 and officially 
+          registered in 2025. The Centre’s mission is to promote sustainable dryland regeneration through integrated training, research, 
+          and innovative practices that restore ecosystems and strengthen local livelihoods. 
         </p>
       </div>
 
       {/* Right Side: Approach & Goal */}
       <div className="flex flex-col justify-center space-y-8 max-w-xl text-white">
         <div>
-          <h2 className="text-2xl font-semibold text-green-700 mb-2">Approach</h2>
-          <p className="text-md leading-relaxed">
+          
+          <p className="text-md md:text-2xl leading-relaxed"><span className='text-green-700 font-bold text-3xl '>Approach: </span>
             Promote sustainable land use, water conservation, agroforestry, and community participation.
           </p>
         </div>
 
         <div>
-          <h2 className="text-2xl font-semibold text-green-700 mb-2">Goal</h2>
-          <p className="text-md leading-relaxed">
+          
+          <p className="text-md md:text-2xl leading-relaxed"><span className='text-black font-bold text-3xl'>Goal: </span>
             A hub for innovation and knowledge, contributing to environmental conservation, food security,
             and economic empowerment in Northern Kenya and beyond.
           </p>
