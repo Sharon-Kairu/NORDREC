@@ -30,14 +30,14 @@ const Hero = () => {
       <div className="flex flex-col justify-center space-y-8 max-w-xl text-white">
         <div>
           
-          <p className="text-md md:text-2xl leading-relaxed"><span className='text-green-700 font-bold text-3xl '>Approach: </span>
+          <p className="text-md md:text-2xl leading-relaxed"><span className='text-green-700 font-bold text-lg md:text-3xl '>Approach: </span>
             Promote sustainable land use, water conservation, agroforestry, and community participation.
           </p>
         </div>
 
         <div>
           
-          <p className="text-md md:text-2xl leading-relaxed"><span className='text-black font-bold text-3xl'>Goal: </span>
+          <p className="text-md md:text-2xl leading-relaxed"><span className='text-black font-bold text-lg md:text-3xl'>Goal: </span>
             A hub for innovation and knowledge, contributing to environmental conservation, food security,
             and economic empowerment in Northern Kenya and beyond.
           </p>
