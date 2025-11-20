@@ -50,8 +50,8 @@ const Mission = () => {
           </div>
 
           <p className="text-sm sm:text-base md:text-lg leading-relaxed">
-            To empower dryland agro-pastoralists and farmers' cooperatives with knowledge and skills for
-            sustainable farming and ecosystem regeneration.
+            To empower dryland agro-pastoralists and farmers' cooperatives with knowledge and skills for 
+Sustainable farming and ecosystem regeneration. 
           </p>
         </div>
 
@@ -101,8 +101,10 @@ const Mission = () => {
           </div>
 
           <p className="text-sm sm:text-base md:text-lg leading-relaxed">
-            To be a leading resource center for dryland regeneration across Northern Kenya, promoting sustainable
-            and regenerative agriculture through education, research, and partnerships.
+            To be a leading resource center for dryland regeneration across Northern Kenya and Somalia, promoting 
+sustainable and regenerative agriculture through education, research, and partnerships. 
+Support for Farmers: Providing practical solutions and fostering collaboration for environmental 
+preservation and socio-economic progress. 
           </p>
         </div>
       </div>

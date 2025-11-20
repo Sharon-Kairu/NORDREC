@@ -50,6 +50,10 @@ const Footer = () => {
             <span>northerndryland@gmail.com </span>
           </div>
           <div className="flex items-center gap-2">
+            <FiMail size={20} />
+            <span>info@nordrec.org</span>
+          </div>
+          <div className="flex items-center gap-2">
             <FiPhone size={20} />
             <span>+2547 2150 5214 </span>
           </div>

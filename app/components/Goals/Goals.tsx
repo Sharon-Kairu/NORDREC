@@ -14,7 +14,7 @@ const Goals = () => {
       </div>
 
       {/* Right Text Section */}
-      <div className="flex flex-col gap-4 sm:gap-5 md:gap-6 text-white text-sm sm:text-xs font-semibold leading-relaxed">
+      <div className="flex flex-col gap-4 sm:gap-5 md:gap-6 text-white text-sm sm:text-xs md:text-lg font-semibold leading-relaxed">
         <p className="hover:text-yellow-100 transition duration-300">
           🌱 Recruit and retain a skilled team to lead regeneration efforts.
         </p>

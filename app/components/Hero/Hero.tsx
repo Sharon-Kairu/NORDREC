@@ -19,10 +19,14 @@ const Hero = () => {
         </h1>
 
         <p className="mt-2 text-md md:text-xl leading-relaxed text-white">
-          The Northern Dryland Resource Centre (NORDREC), headquartered in Wajir with a satellite office in Nairobi and 
-          demonstration farms in Bute and Habaswein sub-counties of Wajir County, Kenya, was founded in 2020 and officially 
-          registered in 2025. The Centre’s mission is to promote sustainable dryland regeneration through integrated training, research, 
-          and innovative practices that restore ecosystems and strengthen local livelihoods. 
+          The Northern Dryland Resource Centre (NORDREC), was established to apply the Resilience Design approach 
+to regenerate and enhance agricultural productivity, while empowering communities and programs to proactively 
+address land degradation, climate variability, and increasing shocks and stresses. Resilience Design is community
+driven and grounded in agro ecological principles that integrate complementary strategies and practices. The 
+Centre’s mission is to advance sustainable dryland regeneration through integrated training, research, and innovative 
+approaches that restore ecosystems and strengthen local livelihoods. 
+NORDREC specializes in regenerative techniques, natural resource management, climate resilience, and 
+addressing socio-economic challenges in dryland areas.  
         </p>
       </div>
 
@@ -31,15 +35,16 @@ const Hero = () => {
         <div>
           
           <p className="text-md md:text-2xl leading-relaxed"><span className='text-green-700 font-bold text-lg md:text-3xl '>Approach: </span>
-            Promote sustainable land use, water conservation, agroforestry, and community participation.
+            Promote sustainable land use, water conservation, agroforestry, and community 
+participation. 
           </p>
         </div>
 
         <div>
           
           <p className="text-md md:text-2xl leading-relaxed"><span className='text-black font-bold text-lg md:text-3xl'>Goal: </span>
-            A hub for innovation and knowledge, contributing to environmental conservation, food security,
-            and economic empowerment in Northern Kenya and beyond.
+            A hub for innovation and knowledge, contributing to environmental conservation, food 
+security, and economic empowerment in Northern Kenya and beyond. 
           </p>
         </div>
       </div>
